@@ -28,9 +28,6 @@ class BooksController extends Controller
     }
 
     // Helper methods
-    /**
-     * @return mixed
-     */
     protected function validateRequest()
     {
         return request()->validate([
